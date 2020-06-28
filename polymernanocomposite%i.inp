@@ -1,0 +1,23 @@
+tolerance 2.000000
+filetype pdb
+output model_2.pdb
+
+seed 2
+randominitialpoint
+
+avoid_overlap yes
+
+structure N  number   number 6
+  inside box 0. 0. 0.  50. 50. 50.
+end structure
+
+structure polyethene_18.pdb
+  number 20
+  inside box 0. 0. 0.  50. 50. 50.
+end structure
+
+structure polyethene_19.pdb
+  number 20
+  inside box 0. 0. 0.  50. 50. 50.
+end structure
+

@@ -1,0 +1,23 @@
+tolerance 2.000000
+filetype pdb
+output xyz_models_5.pdb
+
+seed 5
+randominitialpoint
+
+avoid_overlap yes
+
+structure NANOTUBE_144.pdb
+  number 5
+  inside box 0. 0. 0.  50.  number end structure
+
+structure polyethene_23.pdb
+  number 20
+  inside box 0. 0. 0.  50. 50. 50.
+end structure
+
+structure polyethene_22.pdb
+  number 50
+  inside box 0. 0. 0.  50. 50. 50.
+end structure
+

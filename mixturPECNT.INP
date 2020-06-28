@@ -1,0 +1,68 @@
+
+
+tolerance 2.0
+filetype pdb
+output model_seed5.pdb
+
+seed 5
+randominitialpoint
+
+avoid_overlap yes
+
+structure NANOO.pdb 
+  number 5
+  inside box 50. 50. 50.  100. 100. 100. 
+end structure
+
+structure polyethene_straight_21.pdb
+  number 7
+  inside box 50. 50. 50. 100. 100. 100. 
+end structure
+
+
+structure polyethene_21.pdb
+  number 13
+  inside box 50. 50. 50. 100. 100. 100. 
+end structure
+
+
+
+structure polyethene_straight_22.pdb
+  number 7
+  inside box 50. 50. 50. 100. 100. 100. 
+end structure
+
+structure polyethene_22.pdb
+  number 13
+  inside box 50. 50. 50. 100. 100. 100. 
+end structure
+
+structure polyethene_straight_18.pdb
+  number 7
+  inside box 50. 50. 50. 100. 100. 100. 
+end structure
+
+structure polyethene_18.pdb
+  number 13
+  inside box 50. 50. 50. 100. 100. 100. 
+end structure
+
+structure polyethene_straight_19.pdb
+  number 7
+  inside box 50. 50. 50. 100. 100. 100. 
+end structure
+
+structure polyethene_19.pdb
+  number 13
+  inside box 50. 50. 50. 100. 100. 100. 
+end structure
+
+structure polyethene_20.pdb
+  number 13
+  inside box 50. 50. 50. 100. 100. 100. 
+end structure
+
+structure polyethene_23.pdb
+  number 13
+  inside box 50. 50. 50. 100. 100. 100. 
+end structure

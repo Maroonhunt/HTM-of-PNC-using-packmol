@@ -1,0 +1,10 @@
+tolerance 2.0
+filetype pdb
+output mixture5.pdb
+
+
+restart_from nanoo.pack
+structure nanoo2.pdb
+  number 5
+  inside box 50. 50. 50. 100. 100. 100. 
+end structure
